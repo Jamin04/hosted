@@ -1,0 +1,257 @@
+body{
+    margin:0;
+    background-color:rgb(35, 37, 51);
+    padding-bottom: 800px;
+}
+#myHeader{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:0px;
+    padding: 35px;
+}
+#logo{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    font-family: yeseva one;
+}
+#myNav{
+    font-family: varela round;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    font-size:12px ;
+    text-decoration: none;
+    padding: 0 25px;
+    list-style-type: none;
+    
+
+}
+.nav{
+    color: #E0E0E0;
+}
+nav ul li a:hover{
+    color: #EFA765;
+}
+#contact{
+    color: #EFA765;
+}
+.myBtn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 10px;
+    font-family: varela round;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+#mainDiv{
+    background-image:url(contact\ \(1\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background:linear-gradient (rgba(46, 44, 44, 0.9)) rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    background-color: grey;
+    height: 500px;
+    margin-top: 0;
+    
+}
+#mainHead{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#mainHead h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 75px;
+    font-family: "Yeseva One", serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #EFA765;
+    padding-top: 100px;
+}
+.scnd-main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.scnd-main-cont h2{
+    font-family: "Yeseva One", serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #EFA765;
+    font-size: 40px;
+    margin: 0;
+}
+.scnd-main-cont h4{
+    font-family: "Yeseva One", serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #EFA765;
+    font-size: 21px;
+    margin: 0;
+}
+.scnd-main-cont p{
+    font-family: Varela Round, sans-serif;
+    font-size: 12px;
+    color: #E0E0E0;
+}
+.third-main-cont{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+.map{
+    padding-left: 40px;
+
+}
+.woii{
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+    
+.first-input{
+    width: 220px;
+    height:35px;
+    margin-bottom: 15px;
+    font-family: Yeseva One;
+    font-size: 12px;
+}
+.scnd-input{
+    width: 450px;
+    height: 35px;
+    margin-bottom: 15px;
+    font-family: Varela round;
+    font-size: 12px;
+}
+#sixth-main-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ #sixth-main-cont h2{
+     font-family: Yeseva one;
+     font-size: 24px;
+     color: #ffffff;
+     font-weight: lighter;
+ }
+ #nav-down{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     align-items: center;
+ }
+ #nav-down a{
+     margin-left: 25px;
+     margin-top: 15px;
+     text-decoration: none;
+     font-size: 12px;
+ }
+ #nav-down a:hover{
+    color: #EFA765
+ }
+ .nav{
+     color: #ffffff;
+ }
+ #home{
+     color: #EFA765;
+ }
+ #footer{
+     padding-top: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ #img-footer img{
+     width: 280px;
+     height: 280px;
+ }
+ #box-one{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 280px;
+     height: 200px;
+     padding-left: 80px;
+ }
+ #box-two{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 280px;
+     height: 200px;
+     padding-right: 80px;
+ }
+ .yeseva{
+     font-size: 21px;
+     font-family: Yeseva One;
+     color: #ffffff;
+     font-weight: lighter;
+ }
+ .varela{
+     font-size: 12px;
+     font-family: Varela Round;
+     color: #ffffff;
+     
+ }
+ #copyright{
+     display: flex;
+     justify-content: center;
+     padding-top: 80px;
+ 
+ }
+ #copyright p{
+     font-size: 9px;
+     font-family: Varela Round;
+     color: #ffffff;
+ 
+ }
+ .Btn{
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 25px;
+     padding-right: 25px;
+     font-size: 10px;
+     font-family: varela round;
+     background-color: transparent;
+     border-color: white;
+     color: white;  
+ }
+ .Btn:hover{
+    background-color: #E0E0E0;
+    color: #EFA765;
+ }
+ .fa-square-facebook{
+   
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.fa-square-twitter{
+   
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.fa-square-instagram{
+    
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 15px;}

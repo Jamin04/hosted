@@ -1,0 +1,344 @@
+body{
+    margin:0;
+    background-color:rgb(35, 37, 51);
+    padding-bottom: 800px;
+}
+#myHeader{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:0px;
+    padding: 35px;
+}
+#logo{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    font-family: yeseva one;
+}
+#myNav{
+    font-family: varela round;
+}
+nav ul {
+    display: flex;
+}
+#home{
+    color: #EFA765;
+}
+nav ul li a {
+    font-size:12px ;
+    text-decoration: none;
+    padding: 0 25px;
+    color: white;
+    list-style-type: none;
+    
+
+}
+nav ul li a:hover{
+    color: #EFA765;}
+.myBtn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 10px;
+    font-family: varela round;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.myBtn:hover{
+    background-color: #ffffff;
+    color: #EFA765;
+}
+#mainDiv{
+    background-image:url(about-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background:linear-gradient (rgba(46, 44, 44, 0.9)) rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    background-color: grey;
+    height: 500px;
+    margin-top: 0;
+    
+}
+#mainHead{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#mainHead h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 75px;
+    font-family: "Yeseva One", serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #EFA765;
+    padding-top: 100px;
+}
+#scnd-main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#aboutDiv{
+    display: flex;
+    justify-content: center;
+
+}
+#aboutDiv h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    font-family: Yeseva One ;
+    font-weight: bold;
+    color: #EFA765;
+    width: 890px;
+    text-align: center;
+    padding-bottom: 150px;
+
+}
+#img-abt{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+#history{
+    display: flex;
+    justify-content: left;
+    font-family:Yeseva one ;
+    font-size: 36px;
+    color: #EFA765;
+}
+#most-loved{
+    display: flex;
+    justify-content: center;
+    font-family: Yeseva one;
+    font-size: 21px;
+    color: #EFA765;
+    font-weight: 300;
+    padding-right: 360px;
+}
+#back-story{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: varela round;
+    font-size: 14px;
+    color: #E0E0E0;
+    width: 890px;
+    margin-right: 0;
+    padding-left: 300px;
+    padding-bottom: 100px;
+
+}
+#fourth-main-cont{
+    background-image:url(about-divider.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background:linear-gradient (rgba(0, 0, 0, 0.9)) rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    background-color: grey;
+    width: 1300px;
+    height: 270px;
+    padding-bottom: 200px;
+}
+#fifth-main-cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-bottom: 150px;
+    
+}
+#on-the-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+#on-the-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: end;
+    padding-left: 150px; 
+}
+
+#loved{
+    font-family: Yeseva One;
+    font-size: 24px;
+    color: #EFA765;
+    font-weight: 50;
+    width: 446px;
+    height: 46.79px;
+    margin: 0;
+   
+}
+.retrum{
+    color:#E0E0E0;
+    font-family: Varela Round, sans-serif;
+    font-size: 17px;
+    width: 500px;
+    height: 96px;
+    letter-spacing:normal ;
+    text-align: justify;
+}
+.picha{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.jina{
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    font-family: Yeseva One;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.pich-jin{
+    display: flex;
+    align-items: center;
+
+}
+.diam{
+    margin-bottom:40px ;
+}
+#first-left{
+    padding-top: 20px;
+}
+#sixth-main-cont{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+#sixth-main-cont h2{
+    font-family: Yeseva one;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+#nav-down{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#nav-down a{
+    margin-left: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.nav{
+    color: #ffffff;
+}
+#home{
+    color: #EFA765;
+}
+#footer{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#img-footer img{
+    width: 280px;
+    height: 280px;
+}
+#box-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 200px;
+    padding-left: 80px;
+}
+#box-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 200px;
+    padding-right: 80px;
+}
+.yeseva{
+    font-size: 21px;
+    font-family: Yeseva One;
+    color: #ffffff;
+    font-weight: lighter;
+}
+.varela{
+    font-size: 12px;
+    font-family: Varela Round;
+    color: #ffffff;
+    
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+#copyright p{
+    font-size: 9px;
+    font-family: Varela Round;
+    color: #ffffff;
+
+}
+.Btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 10px;
+    font-family: varela round;
+    background-color: transparent;
+    border-color: white;
+    color: white;  
+}
+.Btn:hover{
+    background-color: #ffffff;
+    color: #EFA765;
+}
+.fa-square-facebook{
+   
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.fa-square-twitter{
+   
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.fa-square-instagram{
+    
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 15px;
+
+}
+.fa-brands:hover{
+    color: #EFA765;
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../lessons"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Html project",
+		"liveServer.settings.file": "Html project"
+	}
+}
